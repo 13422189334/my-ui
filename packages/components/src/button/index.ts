@@ -1,5 +1,7 @@
 import Button from './index.vue'
-import  type { App, Plugin } from "vue";
+import './index.less';
+import type {App, Plugin} from "vue";
+
 type SFCWithInstall<T> = T & Plugin
 const withInstall = <T>(comp: T) => {
   (comp as SFCWithInstall<T>).install = (app: App) => {

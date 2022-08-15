@@ -1,13 +1,13 @@
 {
   "name": "sla-ui",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "SLA的UI组件库",
   "main": "lib/components/src/index.js",
   "module":"es/components/src/index.js",
   "author": "JSH",
   "license": "MIT",
   "scripts": {
-    "build": "vite build"
+    "build": "vite build & esno build/buildLess"
   },
   "files": [
     "es",

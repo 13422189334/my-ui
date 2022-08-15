@@ -8,6 +8,6 @@
     "dev": "vite"
   },
   "dependencies": {
-    "sla-ui": "workspace:^1.0.3"
+    "sla-ui": "workspace:^1.0.4"
   }
 }
